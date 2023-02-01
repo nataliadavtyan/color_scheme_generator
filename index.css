@@ -1,0 +1,143 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e5e5e5;
+    font-family: Inter, sans-serif;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    margin: 20px auto 0;
+    background: #ffffff;
+    position: relative;
+}
+
+
+
+
+
+/* Header */
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=color],
+.dropdown,
+button {
+    height: 42px;
+    cursor: pointer;
+}
+
+input[type=color] {
+    width: 61px;
+    border: 0.5px solid #D1D5DB;
+    background: #E5E5E5;
+}
+
+.dropdown {
+   width: 312px;
+   margin: 0 12px;
+   border: 1px solid #d1d5db;
+   border-radius: 6px;
+   box-shadow: 0px 1px 2px #00000026;
+   font-size: 16px;
+   padding: 0 12px;
+   font-weight: 400;
+}
+
+button {
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px #00000026;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 12px;
+}
+
+button:hover,
+button:focus {
+    background: #f5f5f5;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+
+
+
+
+/* Colours */
+.color-container {
+    display: flex;
+}
+
+.color {
+    height: 414px;
+    width: 110px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+/* #colour-1 {background: #F55A5A;}
+#colour-2 {background: #2B283A;}
+#colour-3 {background: #FBF3AB;}
+#colour-4 {background: #AAD1B6;}
+#colour-5 {background: #A626D3;} */
+
+
+
+/* Codes */
+.code-container {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.code {
+    font-size: 0.75em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+/* Other */
+.message {
+    background: #1c1c1c;
+    opacity: 80%;
+    border-radius: 4px;
+    color: #e5e5e5;
+    width: 280px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}

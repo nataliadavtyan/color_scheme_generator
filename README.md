@@ -1,6 +1,6 @@
 # Color scheme generator
 
-Generate different color schemes
+Generate different color schemes.
 
 ## Features
 Users choose a color, a mode and press the button to see the generated color scheme.

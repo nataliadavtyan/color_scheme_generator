@@ -8,7 +8,7 @@ Users choose a color, a mode and press the button to see the generated color sch
 ## Demo
 ![The demonstration](./color-scheme-generator.gif)
 
-Test it on Netlify: https://fantastic-conkies-d9156e.netlify.app/
+Test it on Netlify: https://colorscheme-generator-natalia-davtyan.netlify.app/
 
 ## Technologies
 The project is built using:
